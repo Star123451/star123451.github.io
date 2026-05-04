@@ -5,6 +5,7 @@ peg86 uses [v86](https://github.com/copy/v86) to emulate an x86 CPU running Reac
 [![Play Peggle Nights](https://img.shields.io/badge/Play%20Peggle%20Nights-darkblue)](https://sinceohsix.github.io/peg86?nights)
 [![Play Peggle Extreme](https://img.shields.io/badge/Play%20Peggle%20Extreme-grey)](https://sinceohsix.github.io/peg86?extreme)
 [![Play Peggle WoW Edition](https://img.shields.io/badge/Play%20Peggle%20WoW%20Edition-purple)](https://sinceohsix.github.io/peg86?wow)
+[![Play Peggle WoW Edition](https://img.shields.io/badge/Play%20Pego%20(Prototype)-blue)](https://sinceohsix.github.io/peg86?proto)
 
 ## Compatibility
 Compatibility is widely untested. If you have a decent computer, it *should* work. Mobile is not properly supported (yet).
