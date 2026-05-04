@@ -17,10 +17,20 @@ Compatibility is widely untested. If you have a decent computer, it *should* wor
 | iPhone 16 Pro Max | Safari  | 26.1            | Great |
 | iPhone 16         | Safari  | 26.1            | Great |
 | iPad 10th Gen     | Safari  | 26.1            | Good  |
+| iPhone 14 Pro Max | Safari  | 26.2            | Great |
 | Surface Pro 4     | Edge    | Windows 10 22H2 | Bad.  |
 
 ## Hosting peg86
-Coming soon!
+Hosting peg86 on your local network or server is as easy and running one command! The total insallation size is **~`2.79GB`** including all available versions of Peggle.
+
+>[!NOTE]
+>`npm` is required to host a peg86 instance because it needs to be ran with `npx serve`!  
+>`python -m http.server 8000` won't serve the files properly and is not compatible!
+
+**macOS**:
+```
+curl -fsSL https://sinceohsix.github.io/peg86/hosting.sh | bash
+```
 
 ## Known Quirks
 - No game audio. ReactOS doesn't support audio in v86 (See [v86 Issue #1007](https://github.com/copy/v86/issues/1007)). This can only be fixed by using a different operating system which I am looking into.
