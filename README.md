@@ -26,10 +26,17 @@ Hosting peg86 on your local network or server is as easy and running one command
 >[!NOTE]
 >[Node.js](https://nodejs.org/en/download) is required to host a peg86 instance because it needs to be ran with `npx serve`!  
 >`python -m http.server` won't serve the files properly and is not compatible.
+>
+>Linux *should* be compatible, but I have not tested it.
 
-**macOS**:
+**macOS / Linux**:
 ```
 curl -fsSL https://sinceohsix.github.io/peg86/hosting.sh | bash
+```
+
+**Windows**
+```
+Coming Soon!
 ```
 
 ## Known Quirks
