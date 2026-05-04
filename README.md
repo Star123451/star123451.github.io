@@ -10,12 +10,14 @@ peg86 uses [v86](https://github.com/copy/v86) to emulate an x86 CPU running Reac
 ## Compatibility
 Compatibility is widely untested. If you have a decent computer, it *should* work. Mobile is not properly supported (yet).
 
-| Device        | Browser | OS Version      | Runs? |
-| :-----------: | :-----: | :-------------: | :---: |
-| M2 Mac Mini   | Safari  | 26.3.1          | Great |
-| Macbook Neo   | Safari  | 26.3.2          | Great |
-| iPad 10th Gen | Safari  | 26.1            | Good  |
-| Surface Pro 4 | Edge    | Windows 10 22H2 | Bad.  |
+| Device            | Browser | OS Version      | Runs? |
+| :---------------: | :-----: | :-------------: | :---: |
+| M2 Mac Mini       | Safari  | 26.3.1          | Great |
+| Macbook Neo       | Safari  | 26.3.2          | Great |
+| iPhone 16 Pro Max | Safari  | 26.1            | Great |
+| iPhone 16         | Safari  | 26.1            | Great |
+| iPad 10th Gen     | Safari  | 26.1            | Good  |
+| Surface Pro 4     | Edge    | Windows 10 22H2 | Bad.  |
 
 ## Known Quirks
 - No game audio. ReactOS doesn't support audio in v86 (See [v86 Issue #1007](https://github.com/copy/v86/issues/1007)). This can only be fixed by using a different operating system which I am looking into.
