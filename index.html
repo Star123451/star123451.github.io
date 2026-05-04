@@ -9,6 +9,7 @@
     #screen_container { border: 1px solid #333; }
     #screen_container canvas { display: block; }
     #status { margin-top: 10px; font-size: 12px; color: #666; }
+    #buttons { margin-top: 12px; display: flex; gap: 8px; }
   </style>
 </head>
 <body>
@@ -17,6 +18,18 @@
     <canvas></canvas>
   </div>
   <div id="status">Loading...</div>
+  
+  <div id="buttons">
+    <a href="?">
+      <img src="https://img.shields.io/badge/Peggle%20Deluxe-orange?style=flat"/>
+    </a>
+    <a href="?nights">
+      <img src="https://img.shields.io/badge/Peggle%20Nights-purple?style=flat"/>
+    </a>
+    <a href="?extreme">
+      <img src="https://img.shields.io/badge/Peggle%20Extreme-grey?style=flat"/>
+    </a>
+  </div>
   
   <script src="libv86.js"></script>
   <script>
