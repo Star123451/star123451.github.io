@@ -16,6 +16,7 @@ Compatibility is widely untested. If you have a decent computer, it *should* wor
 | iPad 10th Gen | Safari  | 26.1            | Good  |
 | Surface Pro 4 | Edge    | Windows 10 22H2 | Bad.  |
 
-## Known Issues
-- No game audio. Not an issue since ReactOS doesn't support audio in v86 (See [v86 Issue #1007](https://github.com/copy/v86/issues/1007)) This can only be fixed by using a different operating system which I am looking into.
+## Known Quirks
+- No game audio. ReactOS doesn't support audio in v86 (See [v86 Issue #1007](https://github.com/copy/v86/issues/1007)). This can only be fixed by using a different operating system which I am looking into.
 - Game sometimes runs too fast. From my testing, this has only happened with Nights on my Mac mini.
+- Wow Edition is much slower than usual in the first boot. Gameplay wise, it performs the same as the other games.
