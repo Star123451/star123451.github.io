@@ -24,8 +24,8 @@ Compatibility is widely untested. If you have a decent computer, it *should* wor
 Hosting peg86 on your local network or server is as easy and running one command! The total insallation size is **~`2.79GB`** including all available versions of Peggle.
 
 >[!NOTE]
->`npm` is required to host a peg86 instance because it needs to be ran with `npx serve`!  
->`python -m http.server 8000` won't serve the files properly and is not compatible!
+>[Node.js](https://nodejs.org/en/download) is required to host a peg86 instance because it needs to be ran with `npx serve`!  
+>`python -m http.server` won't serve the files properly and is not compatible.
 
 **macOS**:
 ```
