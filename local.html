@@ -64,7 +64,7 @@
     const proto = new URLSearchParams(window.location.search).has("proto");
     
     const stateFile = nights ? "nights.bin" : extreme ? "extreme.bin" : wow ? "wow.bin" : proto ? "proto.bin" : "state.bin";
-    const stateUrl = `https://pub-903cb6819f6c4a76a8a19ea131eecb41.r2.dev/${stateFile}`;
+    const stateUrl = `./${stateFile}`;
     
     document.title = nights ? "peg86 - Nights" : extreme ? "peg86 - Extreme" : wow ? "peg86 - WoW Edition" : proto ? "pego86" : "peg86 - Deluxe";
 
@@ -76,7 +76,7 @@
       screen_container: document.getElementById("screen_container"),
 
       hda: {
-        url:      "https://pub-903cb6819f6c4a76a8a19ea131eecb41.r2.dev/reactos.img",
+        url:      "./reactos.img",
         async:    true,
         size:     734003200,
       },
