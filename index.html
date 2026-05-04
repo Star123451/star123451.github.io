@@ -32,6 +32,9 @@
     <a href="?wow">
       <img src="https://img.shields.io/badge/Peggle%20WoW%20Edition-purple?style=flat"/>
     </a>
+    <a href="?proto">
+      <img src="https://img.shields.io/badge/Pego%20(Prototype)-blue?style=flat"/>
+    </a>
   </div>
   
   <script src="libv86.js"></script>
@@ -41,11 +44,12 @@
     const nights = new URLSearchParams(window.location.search).has("nights");
     const extreme = new URLSearchParams(window.location.search).has("extreme");
     const wow = new URLSearchParams(window.location.search).has("wow");
+    const proto = new URLSearchParams(window.location.search).has("proto");
     
-    const stateFile = nights ? "nights.bin" : extreme ? "extreme.bin" : wow ? "wow.bin" : "state.bin";
+    const stateFile = nights ? "nights.bin" : extreme ? "extreme.bin" : wow ? "wow.bin" : proto ? "proto.bin" : "state.bin";
     const stateUrl = `https://pub-903cb6819f6c4a76a8a19ea131eecb41.r2.dev/${stateFile}`;
     
-    document.title = nights ? "peg86 - Nights" : extreme ? "peg86 - Extreme" : wow ? "peg86 - WoW Edition" : "peg86 - Deluxe";
+    document.title = nights ? "peg86 - Nights" : extreme ? "peg86 - Extreme" : wow ? "peg86 - WoW Edition" : proto ? "pego86" : "peg86 - Deluxe";
 
     const emulator = new V86({
       wasm_path:        "v86.wasm",
