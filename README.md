@@ -8,7 +8,7 @@ peg86 uses [v86](https://github.com/copy/v86) to emulate an x86 CPU running Reac
 [![Play Peggle WoW Edition](https://img.shields.io/badge/Play%20Pego%20(Prototype)-blue)](https://sinceohsix.github.io/peg86?proto)
 
 ## Compatibility
-Compatibility is widely untested. If you have a decent computer, it *should* work. Mobile is not properly supported (yet).
+Compatibility is widely untested. If you have a decent computer, it *should* work. Mobile is supported (use the input field to type) but performace will not be as good as using a PC/Mac.
 
 | Device            | Browser | OS Version      | Runs? |
 | :---------------: | :-----: | :-------------: | :---: |
