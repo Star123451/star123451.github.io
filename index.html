@@ -23,7 +23,8 @@
     const STATUS = document.getElementById("status");
 
     const nights = new URLSearchParams(window.location.search).has("nights");
-    const stateFile = nights ? "nights.bin" : "state.bin";
+    const extreme = new URLSearchParams(window.location.search).has("extreme");
+    const stateFile = nights ? "nights.bin" : extreme ? "extreme.bin" : "state.bin";
     const stateUrl = `https://pub-903cb6819f6c4a76a8a19ea131eecb41.r2.dev/${stateFile}`;
 
     const emulator = new V86({
